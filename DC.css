@@ -42,3 +42,6 @@ li.column-view {
 }
 .column-view-header-content {
 	background-color: white;
+/* set deadline background color*/
+.task-deadline.due {background-color: white;}
+
