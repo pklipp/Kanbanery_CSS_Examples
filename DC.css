@@ -14,4 +14,8 @@ li.column-view {
 .board-top-bar {
   height: 0px !important;
 }
+.powered {
+	height: 0px;
+}
+
 
