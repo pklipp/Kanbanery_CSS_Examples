@@ -1,20 +1,40 @@
+/* match the header color to the logo background */
 #header {
   background-color: RGB(40, 115, 190) !important;
 }
+/* Change the font to Comic Sans */
 body {
   font-family: "Comic Sans MS", "Comic Sans", cursive !important;
 }
+/* Make the tabs black */
 a.toggle {
   background-color: black;
 }
+/* Make the columns more narrow */
 li.column-view {
   width: 200px;
 }
+/* Hide the bar with the column names */
 .board-top-bar {
   height: 0px !important;
 }
+/* Remove the powered by Kanbanery text under the logo */
 .powered {
   height: 0px !important;
 }
+/* Change the background color of the columns */
+#content {
+	background-color: white;
+}
+/* Add a drop shadow around user avatar */
+.task-owner {
+	-webkit-box-shadow: 2px 2px 15px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 15px 1px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 15px 1px rgba(0,0,0,0.75);
+}
+/* Change the background color of the tasks */
+
+
+
 
 
