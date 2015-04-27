@@ -25,6 +25,7 @@ li.column-view {
 /* Change the background color of the columns */
 #content {
 	background-color: white;
+	background-image: URL(https://0.s3.envato.com/files/83202751/pv_590.jpg);
 }
 /* Add a drop shadow around user avatar */
 .task-owner {
@@ -32,9 +33,12 @@ li.column-view {
 -moz-box-shadow: 2px 2px 15px 1px rgba(0,0,0,0.75);
 box-shadow: 2px 2px 15px 1px rgba(0,0,0,0.75);
 }
-/* Change the background color of the tasks */
-
-
-
-
-
+li.column-view {
+	width: 250px !important;
+}
+.task-card {
+	width: 200px;
+	background-color: yellow;
+}
+.column-view-header-content {
+	background-color: white;
