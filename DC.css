@@ -25,7 +25,7 @@ li.column-view {
 /* Change the background color of the columns */
 #content {
 	background-color: white;
-	background-image: URL(https://0.s3.envato.com/files/83202751/pv_590.jpg);
+	background-image: URL(http://paulklipp.com/images/pow.jpg);
 }
 /* Add a drop shadow around user avatar */
 .task-owner {
