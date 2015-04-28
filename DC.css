@@ -8,11 +8,11 @@ body {
 }
 /* Make the tabs black */
 a.toggle {
-  background-color: black;
+  background-color: black !important;
 }
 /* Make the columns more narrow */
 li.column-view {
-  width: 200px;
+  width: 200px !important;
 }
 /* Hide the bar with the column names */
 .board-top-bar {
@@ -24,24 +24,24 @@ li.column-view {
 }
 /* Change the background color of the columns */
 #content {
-	background-color: white;
-	background-image: URL(http://paulklipp.com/images/pow.jpg);
+	background-color: white !important;
+	background-image: URL(http://paulklipp.com/images/pow.jpg) !important;
 }
 /* Add a drop shadow around user avatar */
 .task-owner {
-	-webkit-box-shadow: 2px 2px 15px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 2px 2px 15px 1px rgba(0,0,0,0.75);
-box-shadow: 2px 2px 15px 1px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 2px 2px 15px 1px rgba(0,0,0,0.75) !important;
+-moz-box-shadow: 2px 2px 15px 1px rgba(0,0,0,0.75) !important;
+box-shadow: 2px 2px 15px 1px rgba(0,0,0,0.75) !important;
 }
 li.column-view {
 	width: 250px !important;
 }
 .task-card {
-	width: 200px;
-	background-color: yellow;
+	width: 200px !important;
+	background-color: yellow !important;
 }
 .column-view-header-content {
-	background-color: white;
+	background-color: white !important;
 /* set deadline background color*/
-.task-deadline.due {background-color: white;}
+.task-deadline.due {background-color: white !important;}
 
