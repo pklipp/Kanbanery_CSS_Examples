@@ -24,7 +24,6 @@ li.column-view {
 }
 /* Change the background color of the columns */
 #content {
-	background-color: white !important;
 	background-image: URL(http://paulklipp.com/images/pow.jpg) !important;
 }
 /* Add a drop shadow around user avatar */
