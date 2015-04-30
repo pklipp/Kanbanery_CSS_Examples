@@ -52,5 +52,7 @@ li.column-view {
 .column-view-header-content {
 	background-color: white !important;
 	
-/* set deadline background color*/
-.task-deadline {background-color: white !important;}
+/* set deadline background color */
+.task-deadline {
+	background-color: white !important;
+}
