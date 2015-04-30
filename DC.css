@@ -53,4 +53,5 @@ li.column-view {
 	background-color: white !important;
 	
 /* set deadline background color*/
-.task-deadline.due {background-color: red !important;}
+#task-deadline {background-color: white !important;}
+#task-deadline.past-due {background-color: white !important;}
