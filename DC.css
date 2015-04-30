@@ -6,20 +6,13 @@
 
 /* Change the font to Annie Get Your Telescope */
 body {
-  font-family: "comic" !important;
+  font-family: "comic", cursive !important;
 }
-
-
 
 /* match the header color to the logo background */
 #header {
   background-color: RGB(40, 115, 190) !important;
 }
-
-/* Change the font to Comic Sans
-body {
-  font-family: "Comic Sans MS", "Comic Sans", cursive !important;
-} *?
 
 /* Make the tabs black */
 a.toggle {
@@ -37,10 +30,12 @@ li.column-view {
 .powered {
   height: 0px !important;
 }
+
 /* Change the background color of the columns */
 #content {
 	background-image: URL(http://paulklipp.com/images/pow.jpg) !important;
 }
+
 /* Add a drop shadow around user avatar */
 .task-owner {
 	-webkit-box-shadow: 2px 2px 15px 1px rgba(0,0,0,0.75) !important;
@@ -56,5 +51,6 @@ li.column-view {
 }
 .column-view-header-content {
 	background-color: white !important;
+	
 /* set deadline background color*/
 .task-deadline {background-color: white !important;}
