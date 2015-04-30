@@ -1,12 +1,12 @@
 /*test Google web fonts CSS only */
 @font-face {
-    font-family: 'annie'; /*a name to be used later*/
-    src: url('http://fonts.gstatic.com/s/annieuseyourtelescope/v6/2cuiO5VmaR09C8SLGEQjGka-vN3cnM35kL5a2hXIL_12IY20qb3OO3nusUf_NB58.woff2'); /*URL to font*/
+    font-family: 'comic';
+    src: url('http://paulklipp.com/images/comic.ttf');
 }
 
 /* Change the font to Annie Get Your Telescope */
 body {
-  font-family: "annie" !important;
+  font-family: "comic" !important;
 }
 
 
