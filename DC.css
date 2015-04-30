@@ -1,11 +1,26 @@
+/*test Google web fonts CSS only */
+@font-face {
+    font-family: 'annie'; /*a name to be used later*/
+    src: url('http://fonts.gstatic.com/s/annieuseyourtelescope/v6/2cuiO5VmaR09C8SLGEQjGka-vN3cnM35kL5a2hXIL_12IY20qb3OO3nusUf_NB58.woff2'); /*URL to font*/
+}
+
+/* Change the font to Annie Get Your Telescope */
+body {
+  font-family: "annie" !important;
+}
+
+
+
 /* match the header color to the logo background */
 #header {
   background-color: RGB(40, 115, 190) !important;
 }
-/* Change the font to Comic Sans */
+
+/* Change the font to Comic Sans
 body {
   font-family: "Comic Sans MS", "Comic Sans", cursive !important;
-}
+} *?
+
 /* Make the tabs black */
 a.toggle {
   background-color: black !important;
